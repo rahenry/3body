@@ -1,0 +1,6 @@
+python g3.py pro/many_energies2_dir/energy_data/* --xlims -2.7 2.7 --ylims 0 10 --output ~/poster/figure_L_1.pdf
+
+
+python g3.py pro/many_energies2_dir/0.246420557039_o64_1.energies --linestyle "" --markersize 1 --markerstyle . --single_colour r --xlabel "Basis Size" --ylim 3.5 5 --xlim 2 auto --ylabel "\$E / E_\\mathrm{ho}\$" --aspect 150 --output ~/poster/fig_conv.pdf
+python g3.py res/L/r_1_64_*.sf3 --annotation_id fig_L_64 --output ~/poster/figure_L_64.pdf
+python g3.py res/L/r_1_1_*.sf3 --annotation_id fig_L_1 --output ~/poster/figure_L_1.pdf

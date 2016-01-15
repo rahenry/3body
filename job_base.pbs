@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N test1
+#PBS -A pMelb0291
+#PBS -q serial
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=300:00:00
+#PBS -l pmem=2000mb
+module load gsl
+module load blas
+module load lapack
+module load python/2.7.10-gcc
